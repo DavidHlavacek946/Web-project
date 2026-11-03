@@ -21,3 +21,6 @@ var_dump($uloziste);
 var_dump($Operacnisystem);
 var_dump($RAM);
 var_dump($vyrobce);
+$test1 = "75";
+$test2 = "90";
+$test3 = "60";
