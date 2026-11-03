@@ -9,11 +9,11 @@ $grade = 0;
 if ($result > 270) {
  $grade = 1;
 } else if ($result < 270 && $result >= 225) {
-   echo $grade = 2;
+    $grade = 2;
 } else if ($result < 225 && $result > 180) {
-   echo $grade = 3;
+    $grade = 3;
 } else if ($result < 180 && $result > 120) {
-   echo $grade = 4;
+   $grade = 4;
 } else if ($result < 120 && $result > 0) {
     $grade = 5;
 }
@@ -29,4 +29,5 @@ echo "<br>";
 echo $test3;
 echo "<br>";
 echo $results;
+echo "<br>";
 echo $grade;
