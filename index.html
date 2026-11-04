@@ -1,44 +1,190 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Můj webový projekt</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
-<body><div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"> <div class="col-md-3 mb-2 mb-md-0"> <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none"> <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg> </a> </div> <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"> <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li> <li><a href="#" class="nav-link px-2">Features</a></li> <li><a href="#" class="nav-link px-2">Pricing</a></li> <li><a href="#" class="nav-link px-2">FAQs</a></li> <li><a href="#" class="nav-link px-2">About</a></li> </ul> <div class="col-md-3 text-end"> <button type="button" class="btn btn-outline-primary me-2">Login</button> <button type="button" class="btn btn-primary">Sign-up</button> </div> </header>
-</div><div class="container">
-    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary"> <div class="col-lg-6 px-0"> <h1 class="display-4 fst-italic">Dobrý podvečer dámy a pánové</h1> <p class="lead my-3">radi vam dopřejem pěkný den a kupte si nase vaření jen za 9.99usd</p> <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">kupte si herohero/davidek.eu </a></p> </div> </div></div>
-<div class="container">
-    <div class="row">
-        <div class="col"><div class="p-4 mb-3 bg-body-secondary rounded">What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
-        </div> </div>
-        <div class="col"><div class="p-4 mb-3 bg-body-secondary rounded">What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
-        </div> </div>
-        <div class="col"><div class="p-4 mb-3 bg-body-secondary rounded">What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.
-        </div> </div>
 
+<body>
 
-       
-        <div class="row align-items-md-stretch"> <div class="col-md-6"> <div class="h-100 p-5 text-bg-dark rounded-3"> <h2>Change the background</h2> <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p> <button class="btn btn-outline-light" type="button">Example button</button> </div> </div> <div class="col-md-6"> <div class="h-100 p-5 bg-body-tertiary border rounded-3"> <h2>Add borders</h2> <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p> <button class="btn btn-outline-secondary" type="button">Example button</button> </div> </div> </div>
+<!-- HEADER -->
+<header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            Můj web
+        </a>
+
+        <!-- Hamburger menu -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#hlavniMenu"
+                aria-controls="hlavniMenu"
+                aria-expanded="false"
+                aria-label="Otevřít navigaci">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigace -->
+        <div class="collapse navbar-collapse" id="hlavniMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Domů</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#obsah">O projektu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                </li>
+
+            </ul>
+        </div>
 
     </div>
-    <footer class="pt-4 my-md-5 pt-md-5 border-top"> <div class="row"> <div class="col-12 col-md"> <img class="mb-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"> <small class="d-block mb-3 text-body-secondary">© 2017–2025</small> </div> <div class="col-6 col-md"> <h5>Features</h5> <ul class="list-unstyled text-small"> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">pes</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li> </ul> </div> <div class="col-6 col-md"> <h5>Resources</h5> <ul class="list-unstyled text-small"> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li> </ul> </div> <div class="col-6 col-md"> <h5>Team</h5> <ul class="list-unstyled text-small"> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Members</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Tomáš Páv</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">t5g6</a></li> <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Lreeed2009</a></li> </ul> </div> </div> </footer>
-   
-</div>
-</body>
-</html>
-</body>
-</html>
-</body>
-</html>
+</nav>
+</header>
+
+<!-- HLAVNÍ OBSAH -->
+<main>
+
+    <!-- Úvodní sekce -->
+    <section class="container mt-4" id="home">
+
+        <div class="p-4 p-md-5 rounded bg-body-secondary">
+
+            <h1 class="display-4 fw-bold">
+                Dobrý podvečer, dámy a pánové!
+            </h1>
+
+            <p class="lead my-3">
+                Rádi vám dopřejeme pěkný den.
+                Kupte si naše vaření jen za 9,99 USD.
+            </p>
+
+            <a href="https://herohero.co/"
+               class="btn btn-primary">
+                Navštivte Herohero
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Obsah -->
+    <section class="container mt-5" id="obsah">
+
+        <h2 class="mb-4">Náš obsah</h2>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="p-4 bg-body-secondary rounded h-100">
+                    <h3>První sekce</h3>
+                    <p>
+                        Zde můžeš představit svůj projekt,
+                        jeho účel a hlavní myšlenku.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="p-4 bg-body-secondary rounded h-100">
+                    <h3>Druhá sekce</h3>
+                    <p>
+                        Zde můžeš doplnit další informace,
+                        obrázky nebo zajímavosti.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="p-4 bg-body-secondary rounded h-100">
+                    <h3>Třetí sekce</h3>
+                    <p>
+                        Zde můžeš představit další část
+                        svého webového projektu.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Další obsah -->
+    <section class="container mt-5">
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6">
+                <div class="p-5 text-bg-dark rounded h-100">
+                    <h2>Naše služby</h2>
+                    <p>
+                        Zde můžeš popsat služby nebo
+                        nabídku svého webu.
+                    </p>
+                    <a href="#kontakt" class="btn btn-outline-light">
+                        Více informací
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="p-5 bg-body-tertiary border rounded h-100">
+                    <h2>O nás</h2>
+                    <p>
+                        Zde můžeš napsat něco o sobě
+                        nebo o svém projektu.
+                    </p>
+                    <a href="#kontakt" class="btn btn-outline-secondary">
+                        Kontakt
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="container mt-5 py-4 border-top" id="kontakt">
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h5>Můj webový projekt</h5>
+            <p class="text-body-secondary">
+                Děkujeme za návštěvu našeho webu.
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <h5>Kontakt</h5>
+            <p>
+                Webový projekt vytvořený pomocí Bootstrapu.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="text-center text-body-secondary mt-3">
+        © 2026 Můj webový projekt
+    </div>
+
+</footer>
+
 </body>
 </html>
