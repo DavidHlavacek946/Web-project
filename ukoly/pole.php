@@ -1,5 +1,4 @@
 <?php
-
 $pole;
 $movies = ["avengers"," iron man","Fury","Der Tiger","Squid Game","Top gun"];
 $movies = "avengers";
@@ -7,7 +6,7 @@ $movies = "iron man";
 $movies = "Fury";
 $movies = "Der Tiger";
 $movies = "Squid Game";
-
+echo "<h1> SKIBIDI    </h1>";
 echo $movies[0]. "<br>";
 
 echo $movies[3]. "<br>";
@@ -19,4 +18,5 @@ foreach ($movies as $movie) {
 echo "<li>$movie</li>";
 
 }echo "</ul>";
+
 
