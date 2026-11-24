@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a03f8d-5b60-4429-a68d-81041003e40f" name="Changes" comment="message" />
+    <list default="true" id="37a03f8d-5b60-4429-a68d-81041003e40f" name="Changes" comment="message">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ukoly/pole.php" beforeDir="false" afterPath="$PROJECT_DIR$/ukoly/pole.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +63,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/xampp/htdocs/web-project/ukoly",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
@@ -102,7 +106,7 @@
       <workItem from="1793686704427" duration="4663000" />
       <workItem from="1794291279168" duration="4515000" />
       <workItem from="1794296624486" duration="64000" />
-      <workItem from="1795501159924" duration="3891000" />
+      <workItem from="1795501159924" duration="4650000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <option name="closed" value="true" />
@@ -176,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794296636227</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="message">
+      <option name="closed" value="true" />
+      <created>1795505347175</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1795505347176</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
