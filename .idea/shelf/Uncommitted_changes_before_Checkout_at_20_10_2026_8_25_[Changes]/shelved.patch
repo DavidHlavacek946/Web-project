@@ -1,0 +1,39 @@
+Index: pocitac.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\necho \"<h1>About page</h1>\";\r\necho \"<p>O mně</p>\";\r\n\r\n$name = \"pc\";\r\n$vyrobce = \"Dell\";\r\n$RAM = \"16GB\";\r\n$uloziste = \"240MB\";\r\n$Operacnisystem = \"Pavel\";\r\n$SSD = true;\r\n\r\necho \"<h1>About page</h1>\" ;         //skibidi\r\necho \"<p><strong>$vyrobce </strong></p>\";     //pes\r\necho \"<p><strong>$RAM </strong></p>\";\r\necho \"<p><strong>$uloziste </strong></p>\";\r\necho \"<p><strong>$Operacnisystem </strong></p>\";\r\necho \"<p><strong>$SSD </strong></p>\";\r\n$names = \"WINDOWS 11\";     // string\r\n$age = 17;          // int\r\n$height = 1.82;     // float\r\n$isStudent = true;  // bool\r\n$middleName = null; // null\r\nvar_dump($SSD);\r\nvar_dump($age);\r\nvar_dump($names);\r\nvar_dump($height);\r\nvar_dump($isStudent);\r\nvar_dump($middleName);
+===================================================================
+diff --git a/pocitac.php b/pocitac.php
+--- a/pocitac.php	(revision a323eb66152e2847a708dd4809dcb1de33ea65ed)
++++ b/pocitac.php	(date 1792477529548)
+@@ -1,7 +1,4 @@
+ <?php
+-echo "<h1>About page</h1>";
+-echo "<p>O mně</p>";
+-
+ $name = "pc";
+ $vyrobce = "Dell";
+ $RAM = "16GB";
+@@ -15,14 +12,10 @@
+ echo "<p><strong>$uloziste </strong></p>";
+ echo "<p><strong>$Operacnisystem </strong></p>";
+ echo "<p><strong>$SSD </strong></p>";
+-$names = "WINDOWS 11";     // string
+-$age = 17;          // int
+-$height = 1.82;     // float
+-$isStudent = true;  // bool
+-$middleName = null; // null
++
+ var_dump($SSD);
+-var_dump($age);
+-var_dump($names);
+-var_dump($height);
+-var_dump($isStudent);
+-var_dump($middleName);
+\ No newline at end of file
++var_dump($uloziste);
++var_dump($vyrobce);
++var_dump($name);
++var_dump($Operacnisystem);
++var_dump($RAM);
+\ No newline at end of file
